@@ -1,9 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+     <index></index>
   <router-view />
+  </div>
 </template>
 
 <style lang="scss">
@@ -11,10 +10,12 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  // text-align: center;
   color: #2c3e50;
 }
-
+// body{
+// background: #42b983;
+// }
 #nav {
   padding: 30px;
 
